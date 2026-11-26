@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "ch3-p05",
+    "chapter": 3,
+    "page": 5,
+    "title": "宣告並建立物件",
+    "main_class": "Sample3_1",
+    "source_pages": [
+      5
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [],
+    "expected_exit": 0,
+    "note": "本頁只示範建立物件，原範例不輸出文字。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p06",
+    "chapter": 3,
+    "page": 6,
+    "title": "建立物件與設定欄位",
+    "main_class": "Sample3_2",
+    "source_pages": [
+      6
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "汽油量是20.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p07",
+    "chapter": 3,
+    "page": 7,
+    "title": "建立兩個獨立物件",
+    "main_class": "Sample3_3",
+    "source_pages": [
+      7
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "car1車號是1234",
+      "car2車號是2345",
+      "car2汽油量是30.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p09",
+    "chapter": 3,
+    "page": 9,
+    "title": "物件內外的欄位存取",
+    "main_class": "Sample3_4",
+    "source_pages": [
+      9
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [],
+    "expected_exit": 0,
+    "note": "補上投影片分散展示的類別外框；保留未呼叫 show() 的流程，無輸出。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p11",
+    "chapter": 3,
+    "page": 11,
+    "title": "定義與呼叫方法",
+    "main_class": "Sample3_4",
+    "source_pages": [
+      11
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "汽油量是20.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p12",
+    "chapter": 3,
+    "page": 12,
+    "title": "在方法內呼叫另一個方法",
+    "main_class": "Sample3_5",
+    "source_pages": [
+      12
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "開始顯示車子資料",
+      "車號是1234"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p14",
+    "chapter": 3,
+    "page": 14,
+    "title": "傳入單一引數",
+    "main_class": "Sample3_6",
+    "source_pages": [
+      14
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "將車號設為1234",
+      "將汽油量設為20.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p15",
+    "chapter": 3,
+    "page": 15,
+    "title": "傳入兩個引數",
+    "main_class": "Sample3_7",
+    "source_pages": [
+      15
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "將車號設為1234，汽油量設為20.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p16",
+    "chapter": 3,
+    "page": 16,
+    "title": "return 回傳值語法的可執行補充",
+    "main_class": "ReturnValueDemo",
+    "source_pages": [
+      16
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "傳回值是42"
+    ],
+    "expected_exit": 0,
+    "note": "P16 僅列 return 語法，沒有完整程式；此為依該語法補寫的示範，不是投影片逐字程式。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p17",
+    "chapter": 3,
+    "page": 17,
+    "title": "方法的傳回值與 void",
+    "main_class": "Sample3_8",
+    "source_pages": [
+      17
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "調查車號",
+      "調查汽油量",
+      "車號是1234，汽油量是20.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p20",
+    "chapter": 3,
+    "page": 20,
+    "title": "未封裝的錯誤資料示範",
+    "main_class": "Sample3_9",
+    "source_pages": [
+      20
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "汽油量是-10.0"
+    ],
+    "expected_exit": 0,
+    "note": "刻意保留負汽油量，示範未使用 private 與驗證的問題，並非正確資料模型。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p22",
+    "chapter": 3,
+    "page": 22,
+    "title": "private 封裝與資料驗證",
+    "main_class": "Sample3_10",
+    "source_pages": [
+      22
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "-10.0不是正確的汽油量",
+      "無法變更汽油量",
+      "汽油量是20.5"
+    ],
+    "expected_exit": 0,
+    "note": "保留講義的條件 0 < g < 100，0 與 100 也不在可設定範圍。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p24",
+    "chapter": 3,
+    "page": 24,
+    "title": "方法多載",
+    "main_class": "Sample3_11",
+    "source_pages": [
+      24
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "將車號設為2345",
+      "將汽油量設為30.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p26",
+    "chapter": 3,
+    "page": 26,
+    "title": "無參數建構式",
+    "main_class": "Sample3_12",
+    "source_pages": [
+      26
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "生產了車子",
+      "車號是0",
+      "汽油量是0.0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p27",
+    "chapter": 3,
+    "page": 27,
+    "title": "建構式多載",
+    "main_class": "Sample3_13",
+    "source_pages": [
+      27
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "汽油量是0.0",
+      "生產了車號為1234，汽油量為25.0的車子",
+      "汽油量是25.0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p28",
+    "chapter": 3,
+    "page": 28,
+    "title": "this() 呼叫其他建構式",
+    "main_class": "Sample3_14",
+    "source_pages": [
+      28
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "生產了車號為1234，汽油量為25.0的車子"
+    ],
+    "expected_exit": 0,
+    "note": "以 Java 8 規則示範 this()，保留先呼叫無參數建構式的輸出。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p31",
+    "chapter": 3,
+    "page": 31,
+    "title": "static 類別欄位與方法",
+    "main_class": "Sample3_15",
+    "source_pages": [
+      31
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車子總共有0台",
+      "車子總共有1台",
+      "將車號設為4567"
+    ],
+    "expected_exit": 0,
+    "note": "講義建立第二台後沒有再呼叫 showSum()；保留此流程，sum 最終為 2。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p34",
+    "chapter": 3,
+    "page": 34,
+    "title": "使用標準類別庫讀取整數",
+    "main_class": "Sample3_16",
+    "source_pages": [
+      34
+    ],
+    "stdin": "123\n",
+    "args": [],
+    "contains": [
+      "您輸入的數字是：123"
+    ],
+    "expected_exit": 0,
+    "note": "補齊折疊的 import；明確使用 UTF-8，保留原範例 parseInt 的輸入限制。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p36",
+    "chapter": 3,
+    "page": 36,
+    "title": "String 字元與長度",
+    "main_class": "Sample3_17",
+    "source_pages": [
+      36
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "第一個字元是H",
+      "第二個字元是e",
+      "長度是5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p37",
+    "chapter": 3,
+    "page": 37,
+    "title": "String 大小寫轉換",
+    "main_class": "Sample3_18",
+    "source_pages": [
+      37
+    ],
+    "stdin": "Hello\n",
+    "args": [],
+    "contains": [
+      "大寫時為HELLO",
+      "小寫時為hello"
+    ],
+    "expected_exit": 0,
+    "note": "指定 Locale.ROOT，避免大小寫結果受作業系統語系影響。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p38",
+    "chapter": 3,
+    "page": 38,
+    "title": "String 搜尋字元",
+    "main_class": "Sample3_19",
+    "source_pages": [
+      38
+    ],
+    "stdin": "輕鬆學JAVA\n學\n",
+    "args": [],
+    "contains": [
+      "輕鬆學JAVA的第3個字就是「學」"
+    ],
+    "expected_exit": 0,
+    "note": "增加空搜尋文字檢查；仍保留 char 與 UTF-16 索引概念，不當作完整 Unicode 字形搜尋。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p40",
+    "chapter": 3,
+    "page": 40,
+    "title": "StringBuffer 串接字串",
+    "main_class": "Sample3_20",
+    "source_pages": [
+      40
+    ],
+    "stdin": "輕鬆學\nJAVA\n",
+    "args": [],
+    "contains": [
+      "就會變成「輕鬆學JAVA」"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p43",
+    "chapter": 3,
+    "page": 43,
+    "title": "Math.max 比較整數",
+    "main_class": "Sample3_21",
+    "source_pages": [
+      43
+    ],
+    "stdin": "5\n10\n",
+    "args": [],
+    "contains": [
+      "5與10中較大的是10"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p45",
+    "chapter": 3,
+    "page": 45,
+    "title": "物件參考指向同一個物件",
+    "main_class": "Sample3_22",
+    "source_pages": [
+      45
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "將car1指定給car2",
+      "改變car1的相關資料",
+      "車號是2345",
+      "汽油量是30.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p47",
+    "chapter": 3,
+    "page": 47,
+    "title": "參考型態作為欄位與引數",
+    "main_class": "Sample3_23",
+    "source_pages": [
+      47
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車名是沒有名稱",
+      "車名是1號車"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch3-p51",
+    "chapter": 3,
+    "page": 51,
+    "title": "物件陣列",
+    "main_class": "Sample3_24",
+    "source_pages": [
+      51
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "車號是2345",
+      "車號是3456",
+      "汽油量是40.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p04",
+    "chapter": 4,
+    "page": 4,
+    "title": "繼承父類別並新增方法",
+    "main_class": "Sample4_1",
+    "source_pages": [
+      4,
+      5
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "生產了車子",
+      "生產了賽車",
+      "將賽車編號設為5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p06",
+    "chapter": 4,
+    "page": 6,
+    "title": "super 呼叫父類別建構式",
+    "main_class": "Sample4_2",
+    "source_pages": [
+      6,
+      7
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "生產了車號為1234，汽油量為20.5的車子",
+      "生產了編號為5的賽車"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p09",
+    "chapter": 4,
+    "page": 9,
+    "title": "protected 成員的存取",
+    "main_class": "Sample4_3",
+    "source_pages": [
+      9,
+      10
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "賽車的車號是0",
+      "汽油量是0.0",
+      "賽車編號是0"
+    ],
+    "expected_exit": 0,
+    "note": "P10 對孫類別不能存取 protected 的說明並不一般成立；另見勘誤說明。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p11",
+    "chapter": 4,
+    "page": 11,
+    "title": "子類別覆寫 show",
+    "main_class": "Sample4_4",
+    "source_pages": [
+      11,
+      12
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "賽車的車號是1234",
+      "賽車編號是5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p14",
+    "chapter": 4,
+    "page": 14,
+    "title": "父類別變數與動態繫結",
+    "main_class": "Sample4_5",
+    "source_pages": [
+      14,
+      15
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "賽車的車號是1234",
+      "賽車編號是0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p17",
+    "chapter": 4,
+    "page": 17,
+    "title": "父類別陣列與多型",
+    "main_class": "Sample4_6",
+    "source_pages": [
+      17,
+      18
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "賽車的車號是4567",
+      "賽車編號是0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p24",
+    "chapter": 4,
+    "page": 24,
+    "title": "覆寫 Object.toString",
+    "main_class": "Sample4_7",
+    "source_pages": [
+      24
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號:1234;汽油量:20.5"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p25",
+    "chapter": 4,
+    "page": 25,
+    "title": "Object.equals 預設參考比較",
+    "main_class": "Sample4_8",
+    "source_pages": [
+      25
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "car1與car2相同 false",
+      "car1與car3相同 true"
+    ],
+    "expected_exit": 0,
+    "note": "Car 沒有覆寫 equals，所以此處比較參考身分，不能推論所有類別的 equals 都如此。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p26",
+    "chapter": 4,
+    "page": 26,
+    "title": "getClass 取得實際類別",
+    "main_class": "Sample4_9",
+    "source_pages": [
+      26,
+      27
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "第1個物件的類別是class Car",
+      "第2個物件的類別是class RacingCar"
+    ],
+    "expected_exit": 0,
+    "note": "將投影片的 raw Class 改成 Class<?>，不影響行為並避免泛型警告。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p29",
+    "chapter": 4,
+    "page": 29,
+    "title": "抽象類別與不同子類別",
+    "main_class": "Sample4_10",
+    "source_pages": [
+      29,
+      30
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "速度是60",
+      "飛機的班次是232",
+      "速度是500"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p32",
+    "chapter": 4,
+    "page": 32,
+    "title": "instanceof 型態檢查",
+    "main_class": "Sample4_11",
+    "source_pages": [
+      32,
+      33
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "第1個物件是Car類別",
+      "第2個物件不是Car類別"
+    ],
+    "expected_exit": 0,
+    "note": "instanceof 包含子類別，getClass()==Car.class 只檢查完全相同的類別，不能在一般情況下互換。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p38",
+    "chapter": 4,
+    "page": 38,
+    "title": "介面陣列與多型",
+    "main_class": "Sample4_12",
+    "source_pages": [
+      38,
+      39
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "汽油量是20.5",
+      "飛機的班次是232"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch4-p41",
+    "chapter": 4,
+    "page": 41,
+    "title": "一個類別實作兩個介面",
+    "main_class": "Sample4_13",
+    "source_pages": [
+      41,
+      42
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "車號是1234",
+      "汽油量是20.5",
+      "車子的材質是鐵"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p06",
+    "chapter": 5,
+    "page": 6,
+    "title": "兩個類別分成兩個檔案",
+    "main_class": "Sample5_1",
+    "source_pages": [
+      6
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "已生產了汽車",
+      "車號是0",
+      "汽油量是0.0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p08",
+    "chapter": 5,
+    "page": 8,
+    "title": "同一套件中的類別",
+    "main_class": "pa.Sample5_2",
+    "source_pages": [
+      8
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "已生產了汽車",
+      "車號是0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p10",
+    "chapter": 5,
+    "page": 10,
+    "title": "跨套件使用 public 類別",
+    "main_class": "pb.Sample5_3",
+    "source_pages": [
+      10
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "已生產了汽車",
+      "車號是0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p14",
+    "chapter": 5,
+    "page": 14,
+    "title": "import 匯入其他套件的類別",
+    "main_class": "pb.Sample5_4",
+    "source_pages": [
+      14
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "已生產了汽車",
+      "汽油量是0.0"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p19",
+    "chapter": 5,
+    "page": 19,
+    "title": "未捕捉的陣列越界例外",
+    "main_class": "Sample5_1",
+    "source_pages": [
+      19
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "將值指定給test[10]",
+      "ArrayIndexOutOfBoundsException"
+    ],
+    "expected_exit": 1,
+    "note": "預期結束碼 1 並顯示例外，後面的成功訊息不會執行；不是編譯錯誤。",
+    "nondeterministic": false,
+    "not_contains": [
+      "將80指定給test[10]",
+      "順利地執行完畢"
+    ]
+  },
+  {
+    "id": "ch5-p21",
+    "chapter": 5,
+    "page": 21,
+    "title": "使用 try-catch 處理例外",
+    "main_class": "Sample5_2",
+    "source_pages": [
+      21
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "超過陣列的範圍了",
+      "順利地執行完畢了"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false,
+    "not_contains": [
+      "將80指定給test[10]"
+    ]
+  },
+  {
+    "id": "ch5-p24",
+    "chapter": 5,
+    "page": 24,
+    "title": "finally 的執行流程",
+    "main_class": "Sample5_3",
+    "source_pages": [
+      24
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "超過陣列的範圍了",
+      "最後一定會執行這個處理",
+      "順利地執行完畢了"
+    ],
+    "expected_exit": 0,
+    "note": "保留投影片輸出字句；JVM 被強制結束或 System.exit 等情況並不保證會執行 finally。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p26",
+    "chapter": 5,
+    "page": 26,
+    "title": "取得捕捉到的例外物件",
+    "main_class": "Sample5_4",
+    "source_pages": [
+      26
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "發生了java.lang.ArrayIndexOutOfBoundsException",
+      "最後一定會執行這個處理"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p30",
+    "chapter": 5,
+    "page": 30,
+    "title": "自訂 checked exception 並在呼叫端捕捉",
+    "main_class": "Sample5_5",
+    "source_pages": [
+      30,
+      31
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "拋出CarException了",
+      "車號是0",
+      "汽油量是0.0"
+    ],
+    "expected_exit": 0,
+    "note": "補齊 P31 主程式；加入 serialVersionUID，避免自訂例外的序列化警告。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p32",
+    "chapter": 5,
+    "page": 32,
+    "title": "以 throws 向外傳遞例外",
+    "main_class": "Sample5_5",
+    "source_pages": [
+      30,
+      32
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "已生產了汽車",
+      "CarException"
+    ],
+    "expected_exit": 1,
+    "note": "預期結束碼 1；throws 是宣告向外傳遞，不是把例外處理掉。",
+    "nondeterministic": false,
+    "not_contains": [
+      "車號是0",
+      "汽油量是0.0"
+    ]
+  },
+  {
+    "id": "ch5-p34",
+    "chapter": 5,
+    "page": 34,
+    "title": "從標準輸入讀取一行文字",
+    "main_class": "Sample5_6",
+    "source_pages": [
+      34
+    ],
+    "stdin": "hello\n",
+    "args": [],
+    "contains": [
+      "已輸入字串hello"
+    ],
+    "expected_exit": 0,
+    "note": "補齊折疊的 import，並指定輸入使用 UTF-8。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p35",
+    "chapter": 5,
+    "page": 35,
+    "title": "用 BufferedWriter 與 PrintWriter 寫檔",
+    "main_class": "Sample5_7",
+    "source_pages": [
+      35
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "資料已經寫入檔案了"
+    ],
+    "expected_exit": 0,
+    "note": "使用 try-with-resources 保證關檔；加入 PrintWriter.checkError()。輸出為 ASCII 文字。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p36",
+    "chapter": 5,
+    "page": 36,
+    "title": "從檔案讀取兩行資料",
+    "main_class": "Sample5_8",
+    "source_pages": [
+      36
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "Hello!",
+      "GoodBye!"
+    ],
+    "expected_exit": 0,
+    "note": "以程式截圖的 test1.txt 為準；投影片內文 text1.txt 為拼字差異。內附相同的範例檔。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p40",
+    "chapter": 5,
+    "page": 40,
+    "title": "由命令列指定檔名並逐行讀取",
+    "main_class": "Sample5_9",
+    "source_pages": [
+      40
+    ],
+    "stdin": "",
+    "args": [
+      "test3.txt"
+    ],
+    "contains": [
+      "A long time age,",
+      "There was a little girl."
+    ],
+    "expected_exit": 0,
+    "note": "保留投影片範例文字 A long time age,；執行時需傳入 runtime 內的檔名。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p44",
+    "chapter": 5,
+    "page": 44,
+    "title": "延伸 Thread 類別啟動執行緒",
+    "main_class": "Sample6_1",
+    "source_pages": [
+      44
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "正在進行1號車的處理工作",
+      "正在進行main()的處理工作"
+    ],
+    "expected_exit": 0,
+    "note": "投影片的原始類別名為 Sample6_1，保留此命名；兩組輸出順序不固定。",
+    "nondeterministic": true
+  },
+  {
+    "id": "ch5-p45",
+    "chapter": 5,
+    "page": 45,
+    "title": "啟動兩個執行緒",
+    "main_class": "Sample6_2",
+    "source_pages": [
+      45
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "正在進行1號車的處理工作",
+      "正在進行2號車的處理工作",
+      "正在進行main()的處理工作"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": true
+  },
+  {
+    "id": "ch5-p46",
+    "chapter": 5,
+    "page": 46,
+    "title": "在子執行緒使用 sleep",
+    "main_class": "Sample6_3",
+    "source_pages": [
+      46
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "正在進行1號車的處理工作",
+      "正在進行main()的處理工作"
+    ],
+    "expected_exit": 0,
+    "note": "保留每次 sleep(1000) 共五次；被中斷時恢復中斷旗標並結束，而非吞掉例外。",
+    "nondeterministic": true,
+    "min_seconds": 4.9
+  },
+  {
+    "id": "ch5-p47",
+    "chapter": 5,
+    "page": 47,
+    "title": "在主執行緒使用 sleep",
+    "main_class": "Sample6_4",
+    "source_pages": [
+      47
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "正在進行1號車的處理工作",
+      "正在進行main()的處理工作"
+    ],
+    "expected_exit": 0,
+    "note": "五次延遲發生在主執行緒，沒有暫停 Car 執行緒。",
+    "nondeterministic": true,
+    "min_seconds": 4.9
+  },
+  {
+    "id": "ch5-p48",
+    "chapter": 5,
+    "page": 48,
+    "title": "使用 join 等待執行緒",
+    "main_class": "Sample6_5",
+    "source_pages": [
+      48
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "正在進行1號車的處理工作",
+      "結束main()的處理工作。"
+    ],
+    "expected_exit": 0,
+    "note": "join() 讓呼叫者等待，不是對 car1 呼叫 interrupt()。",
+    "nondeterministic": false
+  },
+  {
+    "id": "ch5-p50",
+    "chapter": 5,
+    "page": 50,
+    "title": "實作 Runnable",
+    "main_class": "Sample6_6",
+    "source_pages": [
+      50
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "正在進行一號車的處理工作",
+      "正在進行main()的處理工作"
+    ],
+    "expected_exit": 0,
+    "note": "",
+    "nondeterministic": true
+  },
+  {
+    "id": "ch5-p52",
+    "chapter": 5,
+    "page": 52,
+    "title": "未同步共享資料的競爭條件",
+    "main_class": "Sample6_7",
+    "source_pages": [
+      52
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "賺到50元了。"
+    ],
+    "expected_exit": 0,
+    "note": "刻意保留未同步 add()。六次加款可能發生遺失更新，也可能碰巧正確；不保證每次都重現錯誤。",
+    "nondeterministic": true
+  },
+  {
+    "id": "ch5-p55",
+    "chapter": 5,
+    "page": 55,
+    "title": "使用 synchronized 保護共享資料",
+    "main_class": "Sample6_8",
+    "source_pages": [
+      55
+    ],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "賺到50元了。",
+      "合計金額是300元"
+    ],
+    "expected_exit": 0,
+    "note": "以同一 Company 物件的監視器保護整個讀取、加總及寫回操作；兩位駕駛先後順序仍不固定。",
+    "nondeterministic": true
+  },
+  {
+    "id": "extra-grade",
+    "chapter": null,
+    "page": null,
+    "title": "第4題：java.util 成績統計",
+    "main_class": "GradeAnalyzer",
+    "source_pages": [],
+    "stdin": "",
+    "args": [
+      "80",
+      "95",
+      "70",
+      "60"
+    ],
+    "contains": [
+      "平均：76.25"
+    ],
+    "expected_exit": 0,
+    "note": "先前第4題程式原始碼；保留獨立模組。",
+    "nondeterministic": false
+  },
+  {
+    "id": "extra-file",
+    "chapter": null,
+    "page": null,
+    "title": "第4題：java.io UTF-8 檔案統計",
+    "main_class": "TextFileStats",
+    "source_pages": [],
+    "stdin": "",
+    "args": [
+      "sample.txt"
+    ],
+    "contains": [
+      "行數：3"
+    ],
+    "expected_exit": 0,
+    "note": "先前第4題程式原始碼；保留獨立模組。",
+    "nondeterministic": false
+  },
+  {
+    "id": "extra-url",
+    "chapter": null,
+    "page": null,
+    "title": "第4題：java.net 網址解析",
+    "main_class": "UrlInspector",
+    "source_pages": [],
+    "stdin": "",
+    "args": [],
+    "contains": [
+      "主機：example.com"
+    ],
+    "expected_exit": 0,
+    "note": "先前第4題程式原始碼；保留獨立模組。",
+    "nondeterministic": false
+  }
+]

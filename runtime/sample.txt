@@ -1,0 +1,3 @@
+Java 檔案讀取範例
+Hello Java
+今天練習 UTF-8 與 BufferedReader。

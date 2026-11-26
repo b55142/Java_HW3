@@ -1,0 +1,7 @@
+import groovy.json.JsonSlurper
+rootProject.name = 'HW3Complete'
+def examples = new JsonSlurper().parse(file('examples.json'))
+examples.each { example ->
+    include example.id
+    project(":" + example.id).projectDir = file("examples/" + example.id)
+}

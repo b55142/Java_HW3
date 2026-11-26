@@ -1,0 +1,24 @@
+import groovy.json.JsonSlurper
+plugins { id 'base' }
+def examples = new JsonSlurper().parse(file('examples.json'))
+subprojects {
+    apply plugin: 'application'
+    def example = examples.find { it.id == project.name }
+    sourceSets.main.java.srcDirs = ['src']
+    application.mainClass = example.main_class
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        options.release = 8
+    }
+    tasks.named('run', JavaExec) {
+        standardInput = System.in
+        workingDir = rootProject.file('runtime')
+        args example.args
+        jvmArgs '-Dfile.encoding=UTF-8', '-Dstdout.encoding=UTF-8', '-Dstderr.encoding=UTF-8'
+    }
+}
+tasks.register('compileAllExamples') {
+    group = 'build'
+    description = 'Compile every independent slide example and the three extra examples.'
+    dependsOn subprojects.collect { it.tasks.named('classes') }
+}
